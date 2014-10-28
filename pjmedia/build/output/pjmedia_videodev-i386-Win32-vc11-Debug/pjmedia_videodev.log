@@ -1,0 +1,31 @@
+﻿Build started 28-10-2014 01:34:47 PM.
+     1>Project "C:\Project\pjsip\pjmedia\build\pjmedia_videodev.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjnath/include /I../../third_party/portaudio/include /I../../third_party/speex/include /I../../third_party/build/srtp /I../../third_party/srtp/crypto/include /I../../third_party/srtp/include /I../.. /I../../third_party/BaseClasses /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D _DEBUG /D DEBUG /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjmedia_videodev-i386-Win32-vc11-Debug\\" /Fd".\output\pjmedia_videodev-i386-Win32-vc11-Debug\vc120.pdb" /FR".\output\pjmedia_videodev-i386-Win32-vc11-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjmedia-videodev\avi_dev.c" "..\src\pjmedia-videodev\colorbar_dev.c" "..\src\pjmedia-videodev\dshow_dev.c" "..\src\pjmedia-videodev\errno.c" "..\src\pjmedia-videodev\ffmpeg_dev.c" "..\src\pjmedia-videodev\sdl_dev.c" "..\src\pjmedia-videodev\videodev.c"
+         avi_dev.c
+         colorbar_dev.c
+         dshow_dev.c
+         errno.c
+         ffmpeg_dev.c
+         sdl_dev.c
+         videodev.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjnath/include /I../../third_party/portaudio/include /I../../third_party/speex/include /I../../third_party/build/srtp /I../../third_party/srtp/crypto/include /I../../third_party/srtp/include /I../.. /I../../third_party/BaseClasses /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D _DEBUG /D DEBUG /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjmedia_videodev-i386-Win32-vc11-Debug\\" /Fd".\output\pjmedia_videodev-i386-Win32-vc11-Debug\vc120.pdb" /FR".\output\pjmedia_videodev-i386-Win32-vc11-Debug\\" /Gd /TP /analyze- /errorReport:prompt "..\src\pjmedia-videodev\dshowclasses.cpp"
+         dshowclasses.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjmedia-videodev-i386-Win32-vc11-Debug.lib" /NOLOGO ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\avi_dev.obj"
+         ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\colorbar_dev.obj"
+         ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\dshow_dev.obj"
+         ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\dshowclasses.obj"
+         ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\errno.obj"
+         ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\ffmpeg_dev.obj"
+         ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\sdl_dev.obj"
+         ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\videodev.obj"
+         pjmedia_videodev.vcxproj -> C:\Project\pjsip\pjmedia\build\..\lib\pjmedia-videodev-i386-Win32-vc11-Debug.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjmedia-videodev-i386-Win32-vc11-Debug.bsc" ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\avi_dev.sbr" ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\colorbar_dev.sbr" ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\dshow_dev.sbr" ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\dshowclasses.sbr" ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\errno.sbr" ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\ffmpeg_dev.sbr" ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\sdl_dev.sbr" ".\output\pjmedia_videodev-i386-Win32-vc11-Debug\videodev.sbr"
+     1>Done Building Project "C:\Project\pjsip\pjmedia\build\pjmedia_videodev.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.39

@@ -1,0 +1,50 @@
+﻿Build started 28-10-2014 01:34:28 PM.
+     1>Project "C:\Project\pjsip\pjmedia\build\pjmedia_codec.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I../../third_party/speex/include /I../../third_party /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D _DEBUG /D DEBUG /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjmedia_codec-i386-Win32-vc11-Debug\\" /Fd".\output\pjmedia_codec-i386-Win32-vc11-Debug\vc120.pdb" /FR".\output\pjmedia_codec-i386-Win32-vc11-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjmedia-codec\amr_sdp_match.c" "..\src\pjmedia-codec\audio_codecs.c" "..\src\pjmedia-codec\ffmpeg_vid_codecs.c" "..\src\pjmedia-codec\g722.c" "..\src\pjmedia-codec\g7221.c" "..\src\pjmedia-codec\g7221_sdp_match.c" "..\src\pjmedia-codec\gsm.c" "..\src\pjmedia-codec\h263_packetizer.c" "..\src\pjmedia-codec\h264_packetizer.c" "..\src\pjmedia-codec\ilbc.c" "..\src\pjmedia-codec\ipp_codecs.c" "..\src\pjmedia-codec\l16.c" "..\src\pjmedia-codec\opencore_amr.c" "..\src\pjmedia-codec\passthrough.c" "..\src\pjmedia-codec\silk.c" "..\src\pjmedia-codec\speex_codec.c" "..\src\pjmedia-codec\g722\g722_dec.c" "..\src\pjmedia-codec\g722\g722_enc.c"
+         amr_sdp_match.c
+         audio_codecs.c
+         ffmpeg_vid_codecs.c
+         g722.c
+         g7221.c
+         g7221_sdp_match.c
+         gsm.c
+         h263_packetizer.c
+         h264_packetizer.c
+         ilbc.c
+         ipp_codecs.c
+         l16.c
+         opencore_amr.c
+         passthrough.c
+         silk.c
+         speex_codec.c
+         g722_dec.c
+         g722_enc.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjmedia-codec-i386-Win32-vc11-Debug.lib" /NOLOGO ".\output\pjmedia_codec-i386-Win32-vc11-Debug\amr_sdp_match.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\audio_codecs.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\ffmpeg_vid_codecs.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g722.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g7221.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g7221_sdp_match.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\gsm.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\h263_packetizer.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\h264_packetizer.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\ilbc.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\ipp_codecs.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\l16.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\opencore_amr.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\passthrough.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\silk.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\speex_codec.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g722_dec.obj"
+         ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g722_enc.obj"
+         pjmedia_codec.vcxproj -> C:\Project\pjsip\pjmedia\build\..\lib\pjmedia-codec-i386-Win32-vc11-Debug.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjmedia-codec-i386-Win32-vc11-Debug.bsc" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\amr_sdp_match.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\audio_codecs.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\ffmpeg_vid_codecs.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g722.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g7221.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g7221_sdp_match.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\gsm.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\h263_packetizer.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\h264_packetizer.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\ilbc.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\ipp_codecs.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\l16.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\opencore_amr.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\passthrough.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\silk.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\speex_codec.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g722_dec.sbr" ".\output\pjmedia_codec-i386-Win32-vc11-Debug\g722_enc.sbr"
+     1>Done Building Project "C:\Project\pjsip\pjmedia\build\pjmedia_codec.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.89

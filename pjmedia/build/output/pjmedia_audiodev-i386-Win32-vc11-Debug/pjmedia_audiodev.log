@@ -1,0 +1,30 @@
+﻿Build started 28-10-2014 01:34:45 PM.
+     1>Project "C:\Project\pjsip\pjmedia\build\pjmedia_audiodev.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjnath/include /I../../third_party/portaudio/include /I../../third_party/speex/include /I../../third_party/build/srtp /I../../third_party/srtp/crypto/include /I../../third_party/srtp/include /I../.. /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D _DEBUG /D DEBUG /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\\" /Fd".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\vc120.pdb" /FR".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjmedia-audiodev\audiodev.c" "..\src\pjmedia-audiodev\audiotest.c" "..\src\pjmedia-audiodev\bdimad_dev.c" "..\src\pjmedia-audiodev\errno.c" "..\src\pjmedia-audiodev\legacy_dev.c" "..\src\pjmedia-audiodev\null_dev.c" "..\src\pjmedia-audiodev\pa_dev.c" "..\src\pjmedia-audiodev\wmme_dev.c"
+         audiodev.c
+         audiotest.c
+         bdimad_dev.c
+         errno.c
+         legacy_dev.c
+         null_dev.c
+         pa_dev.c
+         wmme_dev.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjmedia-audiodev-i386-Win32-vc11-Debug.lib" /NOLOGO ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\audiodev.obj"
+         ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\audiotest.obj"
+         ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\bdimad_dev.obj"
+         ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\errno.obj"
+         ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\legacy_dev.obj"
+         ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\null_dev.obj"
+         ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\pa_dev.obj"
+         ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\wmme_dev.obj"
+         pjmedia_audiodev.vcxproj -> C:\Project\pjsip\pjmedia\build\..\lib\pjmedia-audiodev-i386-Win32-vc11-Debug.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"..\lib\pjmedia-audiodev-i386-Win32-vc11-Debug.bsc" ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\audiodev.sbr" ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\audiotest.sbr" ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\bdimad_dev.sbr" ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\errno.sbr" ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\legacy_dev.sbr" ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\null_dev.sbr" ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\pa_dev.sbr" ".\output\pjmedia_audiodev-i386-Win32-vc11-Debug\wmme_dev.sbr"
+     1>Done Building Project "C:\Project\pjsip\pjmedia\build\pjmedia_audiodev.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.54
